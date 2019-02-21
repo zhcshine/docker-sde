@@ -14,7 +14,7 @@ RUN apt-get update \
 	&& apt-get install -y nodejs \ 
 	&& npm install -g cnpm --registry=https://registry.npm.taobao.org \ 
 	&& cnpm install -g gulp \ 	
-	&& gem sources --add https://gems.ruby-china.org/ --remove https://rubygems.org/ \
+	&& gem sources --add https://gems.ruby-china.org/ --remove https://gems.ruby-china.com/ \
 	&& gem install sass \
 	&& gem install compass \ 
 	&& gem install compass-normalize \ 	
